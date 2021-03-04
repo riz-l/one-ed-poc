@@ -28,8 +28,8 @@ export default function Dashboard() {
           <Splash>
             <h2>Welcome to OneED</h2>
             <p>
-              OneED is application application used to triage and treat Patients
-              in an Emergency Department setting.
+              OneED is an application used to triage and treat Patients in an
+              Emergency Department setting.
             </p>
 
             <SplashImage>
