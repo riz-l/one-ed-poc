@@ -89,7 +89,7 @@ export const OptionIcon = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 8px;
-  padding: 0.6rem;
+  padding: 0.7rem;
   transition: all 100ms linear;
 
   & svg {

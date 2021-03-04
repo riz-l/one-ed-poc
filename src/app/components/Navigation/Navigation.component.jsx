@@ -3,6 +3,7 @@ import React from "react";
 
 // Import: Assets
 import { ReactComponent as WardEDOverviewIcon } from "../../../assets/img/icon/hospital.svg";
+import { ReactComponent as WardDashboardIcon } from "../../../assets/img/icon/speedometer.svg";
 import { ReactComponent as PatientOverviewIcon } from "../../../assets/img/icon/patient-patient.svg";
 import { ReactComponent as PatientCASIcon } from "../../../assets/img/icon/patient-cas.svg";
 import { ReactComponent as PatientSaveIcon } from "../../../assets/img/icon/patient-save.svg";
@@ -42,6 +43,15 @@ export default function Navigation() {
         <NavSection>
           <NavHeading>Ward</NavHeading>
           <Grid>
+            <GridItem>
+              <Option>
+                <OptionIcon>
+                  <WardDashboardIcon />
+                </OptionIcon>
+                <span>Dashboard</span>
+              </Option>
+            </GridItem>
+
             <GridItem>
               <Option>
                 <OptionIcon>
