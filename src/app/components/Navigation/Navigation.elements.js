@@ -5,7 +5,7 @@ import styled from "styled-components/macro";
 export const Container = styled.div`
   align-items: center;
   backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.3);
+  /* background: rgba(255, 255, 255, 0.3); */
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
   display: flex;

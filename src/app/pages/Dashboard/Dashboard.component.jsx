@@ -11,6 +11,8 @@ import {
   Header,
   Splash,
   SplashImage,
+  SplashWrapper,
+  UserDetails,
   Wrapper,
 } from "./Dashboard.elements";
 
@@ -25,17 +27,23 @@ export default function Dashboard() {
             <img src={DXCLogo} alt="DXC Technology" />
           </Header>
 
-          <Splash>
-            <h2>Welcome to OneED</h2>
-            <p>
-              OneED is an application used to triage and treat Patients in an
-              Emergency Department setting.
-            </p>
+          <SplashWrapper>
+            <Splash>
+              <h2>Welcome to OneED</h2>
+              <p>
+                OneED is an application used to triage and treat Patients in an
+                Emergency Department setting.
+              </p>
 
-            <SplashImage>
-              <SplashImageSvg />
-            </SplashImage>
-          </Splash>
+              <SplashImage>
+                <SplashImageSvg />
+              </SplashImage>
+            </Splash>
+
+            <UserDetails>
+              <h3>User</h3>
+            </UserDetails>
+          </SplashWrapper>
         </Wrapper>
       </Container>
     </>

@@ -15,7 +15,7 @@ export const Container = styled.div`
 export const Wrapper = styled.main`
   align-items: flex-start;
   backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.3);
+  /* background: rgba(255, 255, 255, 0.3); */
   border-radius: 40px;
   display: flex;
   flex-direction: column;
@@ -43,6 +43,16 @@ export const Header = styled.header`
   & img {
     max-height: 60px;
   }
+`;
+
+// Element: SplashWrapper
+export const SplashWrapper = styled.div`
+  align-items: center;
+  display: flex;
+  height: 225px;
+  min-height: 225px;
+  justify-content: space-between;
+  width: 100%;
 `;
 
 // Element: Splash
@@ -86,5 +96,31 @@ export const SplashImage = styled.div`
 
   & svg {
     height: 300px;
+  }
+`;
+
+// Element: UserDetails
+export const UserDetails = styled.div`
+  align-items: flex-start;
+  backdrop-filter: blur(10px);
+  /* background: rgba(255, 255, 255, 0.3); */
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  height: 225px;
+  min-height: 225px;
+  justify-content: flex-start;
+  padding: 2rem;
+  width: 40%;
+
+  & h3 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 0.8rem;
   }
 `;
