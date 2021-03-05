@@ -78,7 +78,7 @@ export const Splash = styled.div`
 
 // Element: SplashImage
 export const SplashImage = styled.div`
-  top: -25px;
+  top: -40px;
   height: 100%;
   position: absolute;
   right: -150px;
